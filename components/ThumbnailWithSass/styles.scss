@@ -1,0 +1,30 @@
+.thumbnail{
+    &__image{
+       // width: 50%;
+    }
+    &__caption{
+        text-align: center;
+        padding: 10px;
+    }
+}
+.container {
+    display: flex;
+    li {
+        display: inline-block;
+        margin: 10px;
+    }
+    .info-message{
+        color: green;
+        font-weight: bold;
+        font-size: 24px;
+    }
+}
+.show-details__poster {
+    height: 200px;
+    background-size: cover;
+}
+.error-block{
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+}
